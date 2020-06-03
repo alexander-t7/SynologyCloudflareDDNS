@@ -2,6 +2,8 @@
 
 The is a script to be used to add [Cloudflare](https://www.cloudflare.com/) as a DDNS to [Synology](https://www.synology.com/) NAS. The script used an updated API, Cloudflare API v4.
 
+Forked from [joshuaavalon/SynologyCloudflareDDNS](https://github.com/joshuaavalon/SynologyCloudflareDDNS)
+
 ## How to use
 
 ### Access Synology via SSH
@@ -13,7 +15,7 @@ The is a script to be used to add [Cloudflare](https://www.cloudflare.com/) as a
 
 ### Run commands in Synology
 
-1. Download `cloudflareddns.sh` from this repository to `/sbin/cloudflareddns.sh`
+1. Download `cloudflareddns.sh` from this repository to `/sbin/cloudflareddns.sh` (elevated permissions may be necessary)
 
 ```sh
 wget https://raw.githubusercontent.com/alexander-t7/SynologyCloudflareDDNS/master/cloudflareddns.sh -O /sbin/cloudflareddns.sh
@@ -21,7 +23,7 @@ wget https://raw.githubusercontent.com/alexander-t7/SynologyCloudflareDDNS/maste
 
 It is not a must, you can put I whatever you want. If you put the script in other name or path, make sure you use the right path.
 
-2. Give others execute permission
+2. Give others execute permission (elevated permissions may be necessary)
 
 ```sh
 chmod +x /sbin/cloudflareddns.sh

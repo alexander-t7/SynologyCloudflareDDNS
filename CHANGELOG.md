@@ -1,4 +1,12 @@
-# 2.0.0
+# Changelog
+
+## 2.1
+
+### Changes
+
+- disable proxying
+
+## 2.0 (fork from SynologyCloudflareDDNS)
 
 ### Features
 
